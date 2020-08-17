@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera tabla</title>
+    <link rel="stylesheet" href="styletable.css">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rosa</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Andréa</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Oscar</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" />
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password">
+        <label for="terms">Términos y condiciones</label>
+        <input type="checkbox" id="terms" name="terms">
+        <label for="radio-1">Radio 1</label>
+        <input type="radio" id="radio-1" name="radio-options" />
+        <label for="radio-2">Radio 1</label>
+        <input type="radio" id="radio-2" name="radio-options" />
+        <label for="radio-3">Radio 1</label>
+        <input type="radio" id="radio-3" name="radio-options" />
+        <select name="genero">
+            <option value="female">female</option>
+            <option value="male">Male</option>
+        </select>
+        <textarea></textarea>
+        <button type="submit">Enviar formulario</button>
+
+    </form>
+    <form action="#" method="POST">
+        <fieldset>
+            <label for="name">Nombre
+                <input type="text" name="nombre" id="nombre" value="" />
+            </label>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
