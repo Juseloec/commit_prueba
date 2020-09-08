@@ -1,6 +1,6 @@
 const SMLV =877803;
-var precio = 200000;
-var cantidad = 5;
+var precio = 2000;
+var cantidad = 45;
 var totalVenta = precio * cantidad;
 let valorFinalVenta;
 if (totalVenta>SMLV){
